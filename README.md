@@ -2,8 +2,8 @@
 A HTML5 Moblie Read APP
 
 ## Installation
-1. https://github.com/huruji/Web-Read-APP
-2. <pre>browser-sync start --server </pre>
+1. git clone <pre>https://github.com/huruji/Web-Read-APP</code>
+2. <code>browser-sync start --server </code>
 3. view localhost:3000 in your browser
 
 
