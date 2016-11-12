@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+	<title>Web Reader APP</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		
+		<div id="root" class="container">
+		    <div class="m-artical-action">
+		    	<div class="artical-action-mid" id="action_mid"></div>
+		    </div>
+		    <div id="top-nav" class="top-nav" style="display:none;">
+		    	<div class="icon-back"></div>
+		    	<div class="nav-title">返回书架</div>
+		    </div>
+			<div id="fiction_chapter_title"></div>
+			<div id="fiction_container" class="m-read-content">
+			    
+			</div>
+			<div class="m-button-bar">
+				<ul class="u-tab">
+					<li id="prev_button">上一章</li>
+					<li id="next_button">下一章</li>
+				</ul>
+			</div>
+			<div class="nav-pannel-bk font-container" style="display:none;"></div>
+			<div class="nav-pannel font-container" style="display:none;">
+				<div class="child-mod">
+					<span>字号</span>
+					<button id="large-font" class="font-size-button">大</button>
+					<button id="small-font" class="font-size-button">小</button>
+				</div>
+				<div class="child-mod">
+					<span>背景</span>
+					<div class="bk-container   bk-container1">
+						<div class=""></div>
+					</div>
+					<div class="bk-container   bk-container2">
+						<div class=""></div>
+					</div>
+					<div class="bk-container   bk-container3">
+						<div class=""></div>
+					</div>
+					<div class="bk-container   bk-container4">
+						<div class=""></div>
+					</div>
+					<div class="bk-container   bk-container5">
+						<div class=""></div>
+					</div>		
+				</div>
+			</div>
+			<div class="bottom-nav-bk bottom_nav" style="display:none"></div>
+			<div class="bottom-nav bottom_nav" style="display:none">
+				<div class="item menu-button" id="menu_button">
+					<div class="item-warp">
+						<div class="icon-menu"></div>
+						<div class="icon-text">
+							目录
+						</div>
+					</div>
+				</div>
+				<div class="item" id="font-button">
+					<div class="item-warp">
+						<div class="icon-ft"></div>
+						<div class="icon-text">
+							字体
+						</div>
+					</div>
+				</div>
+				<div class="item" id="night-button">
+					<div class="item-warp" style="display:none" id="day_icon">
+						<div class="icon-day"></div>
+						<div class="icon-text">
+							白天
+						</div>
+					</div>
+					<div class="item-warp" id="night_icon">
+						<div class="icon-night"></div>
+						<div class="icon-text">
+							夜间
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="lib/zepto.min.js"></script>
+		<script>
+			window.jQuery = $;
+		</script>
+		<script src="js/jquery.base64.js"></script>
+		<script src="js/jquery.jsonp.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
